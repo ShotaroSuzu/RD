@@ -13,6 +13,7 @@ public class Main {
     }
 
     private static void exec(int n) {
+        //TODO EratosthenesLogicImplをStreampAPIで実装する
         EratosthenesLogicImpl eratosthenesLogic = new EratosthenesLogicImpl();
         List<Integer> primeNumber = eratosthenesLogic.calcPrimeNumbers(n);
         SetPrinter printer = new SetPrinter();
